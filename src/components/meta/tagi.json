@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_meta_tagis",
+  "info": {
+    "displayName": "Tagi",
+    "icon": "chart-line"
+  },
+  "options": {},
+  "attributes": {
+    "tytul": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "text"
+    }
+  }
+}

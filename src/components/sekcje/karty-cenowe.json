@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sekcje_karty_cenowes",
+  "info": {
+    "displayName": "Karty Cenowe",
+    "icon": "money-bill",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cena": {
+      "type": "string"
+    },
+    "promocja": {
+      "type": "boolean",
+      "default": false
+    },
+    "tekst": {
+      "type": "text"
+    },
+    "zdjecie": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

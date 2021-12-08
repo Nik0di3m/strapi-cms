@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wpisies",
+  "info": {
+    "singularName": "wpisy",
+    "pluralName": "wpisies",
+    "displayName": "Wpisy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tagi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.tagi"
+    },
+    "tytul": {
+      "type": "string"
+    },
+    "zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "tekst": {
+      "type": "richtext"
+    }
+  }
+}

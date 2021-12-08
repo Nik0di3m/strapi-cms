@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sekcje_sekcjas",
+  "info": {
+    "displayName": "Sekcja",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "tytul": {
+      "type": "string"
+    },
+    "tekst": {
+      "type": "text"
+    },
+    "zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "prawa": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

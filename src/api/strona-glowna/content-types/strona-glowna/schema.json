@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "strona_glownas",
+  "info": {
+    "singularName": "strona-glowna",
+    "pluralName": "strona-glownas",
+    "displayName": "Strona Główna",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagi": {
+      "displayName": "Tagi",
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.tagi"
+    },
+    "sekcja": {
+      "displayName": "Sekcja",
+      "type": "component",
+      "repeatable": true,
+      "component": "sekcje.sekcja"
+    },
+    "baner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "karty": {
+      "displayName": "Karty Cenowe",
+      "type": "component",
+      "repeatable": true,
+      "component": "sekcje.karty-cenowe"
+    }
+  }
+}
